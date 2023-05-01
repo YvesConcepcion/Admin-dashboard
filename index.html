@@ -10,9 +10,11 @@
   <body>
     <div class="container">
       <div class="sidebar">
-        <div class="logo">
-          <img src="icons/dashboard.svg" alt="logo">
-          <h1>Dashboard</h1></div>
+        <div class="logo-container">
+          <div class="logo">
+            <img src="icons/dashboard.svg" alt="logo">
+            <h1>Dashboard</h1></div>
+          </div>
         <div class="sidebar-menu">
           <div class="side-button">
             <img src="icons/home.svg" alt="home">
@@ -43,19 +45,25 @@
             <h4>Privacy</h4></div>      
         </div>
       </div>
-    <div class="header">
+    <div class="header-container">
         <div class="header-top">
-         <img src="icons/magnify.svg" alt="magnify">
-         <div class="searchbar"></div>
-         <img src="icons/bell.svg" alt="bell">
-         <img src="icons/avatar.svg" alt="avatar">
-         <h3>Morgan Oakley</h3>
+          <div class="search-container">
+            <img src="icons/magnify.svg" alt="magnify">
+          <div class="searchbar"></div>
+         </div>
+         <div class="header-right">
+           <img src="icons/bell.svg" alt="bell">
+           <img src="icons/avatar.svg" alt="avatar" id="notif-avatar">
+           <h3>Morgan Oakley</h3>
+        </div>
         </div>
         <div class="header-bot">
           <div class="profile">
-            <img src="icons/avatar.svg" alt="avatar">
-            <p>Hi there,</p>
-            <h1>Morgan Oakley (@Morgan)</h1>
+            <img src="icons/avatar.svg" alt="avatar" id="main-avatar">
+            <div class="profile-name">
+              <h4>Hi there,</p>
+              <h1>Morgan Oakley (@Morgan)</h1>
+            </div>
           </div>
           <div class="nav-buttons">
            <button>New</button>
